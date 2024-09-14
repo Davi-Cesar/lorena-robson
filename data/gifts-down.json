@@ -1,0 +1,40 @@
+{
+    "gifts": [
+      {
+        "name": "Ferro de passar roupa",
+        "price": 140.00,
+        "image": "images/ferro.png"
+      },
+      {
+        "name": "Liquidificador",
+        "price": 150.00,
+        "image": "images/liquidificador.png"
+      },
+      {
+        "name": "Jogo de cama casal",
+        "price": 170.00,
+        "image": "images/jogo-de-cama.png"
+      },
+      {
+        "name": "Ventilador",
+        "price": 180.00,
+        "image": "images/ventilador.png"
+      },
+      {
+        "name": "Jogo de Toalhas",
+        "price": 200.00,
+        "image": "images/toalhas.png"
+      },
+      {
+        "name": "Jogo de pratos",
+        "price": 220.00,
+        "image": "images/pratos.png"
+      },
+      {
+        "name": "kit de Utenílios",
+        "price": 120.00,
+        "image": "images/colheres.png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,253 @@
+/* Definir variáveis de cores no :root para que sejam globais */
+:root {
+  --primary-color: #4c5437; /* Cor primária, ex: verde do WhatsApp */
+  --primary-color-hover: #656f4a; /* Cor ao passar o mouse */
+  --secundary-color: #96A471;
+  --base-color: #CFD7BC;
+  --background-color: #ecefe3; /* Cor de fundo */
+  --text-color: #4c5437; /* Cor do texto */
+  --box-shadow-color: rgba(0, 0, 0, 0.1); /* Sombra das caixas */
+  --white: #ecefe3; /* Cor branca */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cinzel", sans-serif;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  margin: 0;
+  padding: 20px;
+  font-size: 1rem;
+  max-height: 100%;
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+footer {
+  font-size: .9rem;
+  width: 100%;
+  font-family: "Lora", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  padding: 2rem 2rem 0 2rem ;
+
+}
+
+footer a {
+  font-style: italic;
+  font-weight: bold;
+  padding: 1rem .8rem; 
+  border-radius: 20px;
+  background-color: var(--base-color);
+  color: var(--primary-color);
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 48px;
+}
+
+section {
+  font-family: "Lora", sans-serif;
+  font-weight: 600;
+  
+  margin: 3rem 1rem;
+
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section p {
+  padding: 5%;
+
+}
+
+section a {
+  padding: 5%;
+  font-family: "Cinzel", sans-serif;
+}
+
+section h4 {
+  font-weight: 900;
+  font-size: 16px;
+  padding: 2%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconListGift  {
+  padding: 1rem;
+
+}
+
+.gift-list-name {
+  padding: 0;
+}
+
+.pix-container {
+  background-color: var(--base-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 80%;
+  padding: 16px 0;
+  margin: 2rem 0;
+  border-radius: 20px;
+}
+
+
+.gift-list-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.gift-list-title h1 {
+  font-family: "Cinzel", sans-serif;
+}
+
+.gift-list {
+  font-family: "Lora", sans-serif;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gift-item {
+  
+  background-color: var(--base-color);;
+  padding: 10px;
+  margin: 10px;
+  
+  text-align: center;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .gift-img {
+  
+} */
+
+.gift-item p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.gift-item img {
+  width: 100%;
+  height: auto;
+}
+
+.gift-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.gift-value {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.whatsapp-btn {
+  background-color: var(--primary-color);
+  font-family: "Lora", sans-serif;
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  padding: 14px;
+  border-radius: 100%;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-btn:hover {
+  background-color: var(--primary-color-hover);
+}
+
+@media (max-width: 350px) {
+  .pix-container {
+    
+    padding: 1rem 1rem;
+  }
+  .pix-container h4 {
+
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  header  {
+    background-color: #656f4a;
+    height: 250px;
+    width: 250px;
+  }
+
+  body {
+    padding: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 3rem; /* Aumentar o tamanho do título */
+  }
+
+  footer {
+    font-size: 1.1rem;
+  }
+
+  section {
+    margin: 5rem 4rem;
+    max-width: 1200px;
+  
+  }
+
+  .pix-container h4 {
+    font-size: 2rem;
+  }
+
+  .gift-item {
+    width: 400px; /* Aumentar a largura dos itens de presente em telas grandes */
+    padding: 20px;
+    margin: 20px;
+    
+  }
+
+  .pix-container {
+    width: 60%; /* Ajuste para telas grandes */
+  }
+
+  .gift-content {
+    padding: 1.5rem;
+  }
+
+  .whatsapp-btn {
+    padding: 16px; /* Ajustar tamanho do botão */
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "gifts": [
+      {
+        "name": "Air Fryer",
+        "price": 300.00,
+        "image": "images/airfryer.png"
+      },
+      {
+        "name": "Liquidificador",
+        "price": 200.00,
+        "image": "images/liquidificador.png"
+      },
+      {
+        "name": "Jogo de cama casal",
+        "price": 220.00,
+        "image": "images/jogo-de-cama.png"
+      },
+      {
+        "name": "Aspirador de pó",
+        "price": 320.00,
+        "image": "images/aspirador.png"
+      },
+      {
+        "name": "Jogo de Toalhas",
+        "price": 260.00,
+        "image": "images/toalhas.png"
+      },
+      {
+        "name": "Jogo de pratos",
+        "price": 240.00,
+        "image": "images/pratos.png"
+      },
+      {
+        "name": "Kit de Panelas",
+        "price": 280.00,
+        "image": "images/panelas.png"
+      }
+    ]
+  }
+  
