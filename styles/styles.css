@@ -223,6 +223,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--white);
   }
 
   h1 {
@@ -236,7 +237,15 @@ header {
   section {
     margin: 5rem 4rem;
     max-width: 1200px;
-  
+   
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .pix-container h4 {

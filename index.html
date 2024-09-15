@@ -42,6 +42,7 @@
     /* Hide content initially */
     #content {
       display: none;
+      
     }
   </style>
 </head>
@@ -54,37 +55,39 @@
   </header>
 
  <div id="content">
+  <main class="container">
     <h1>Querido convidado</h1>
     <section>
       <p> Como ainda não vamos montar nossa casa, sugerimos que nos presenteie via PIX. Abaixo, oferecemos algumas opções de valores. Basta escolher o presente ilustrativo com valor que preferir, e clicar no ícone correspondente.</p>
       <div class="pix-container">
         <img src="images/pix-icon.svg" alt="" />
-        <h4>Chave PIX: 84987446757</h4>
+          <h4>Chave PIX: 84987446757</h4>
         </div>
         <a>Lorena & Robson</a>
       </section>
       <section class="gift-list-title">
         <img class="iconListGift" src="./images/gift-icon-dark.svg" alt="" />
         <h1 class="gift-list-name">Lista de presentes</h1>
-        <p>Clique no ícone de presente para enviar um presente.</p>
-      </section>
-      <div class="gift-list" id="gift-list">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="scripts/main.js"></script>
-        <script type="text/javascript">
-          // Show preloader for a specific time, then hide it
-          $(document).ready(function() {
-            setTimeout(function() {
-              // Hide the loader and show the content after 3 seconds (3000 ms)
-              $('#loader').fadeOut('slow', function() {
-                $('#content').fadeIn('slow');
-              });
-            }, 3000); // 3000 ms = 3 seconds
-          });
-        </script>
-      </div>
-      <footer> Feito por <a href="https://www.instagram.com/davicbezerra/" target="_blank">Davi Bezerra</a></footer>
-    </body>
-</div>
-  </html>
+          <p>Clique no ícone de presente para enviar um presente.</p>
+        </section>
+        <div class="gift-list" id="gift-list">
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="scripts/main.js"></script>
+          <script type="text/javascript">
+            // Show preloader for a specific time, then hide it
+            $(document).ready(function() {
+              setTimeout(function() {
+                // Hide the loader and show the content after 3 seconds (3000 ms)
+                $('#loader').fadeOut('slow', function() {
+                  $('#content').fadeIn('slow');
+                });
+              }, 3000); // 3000 ms = 3 seconds
+            });
+            </script>
+        </div>
+        <footer> Feito por <a href="https://www.instagram.com/davicbezerra/" target="_blank">Davi Bezerra</a></footer>
+      </body>
+    </div>
+  </main>
+</html>
   
