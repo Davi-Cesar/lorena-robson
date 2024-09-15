@@ -67,6 +67,8 @@ section {
 
 section p {
   padding: 5%;
+ 
+  font-weight: 500;
 
 }
 
@@ -89,7 +91,7 @@ header {
 
 .iconListGift  {
   padding: 1rem;
-
+  
 }
 
 .gift-list-name {
@@ -168,19 +170,24 @@ header {
 }
 
 .whatsapp-btn {
-  background-color: var(--primary-color);
   font-family: "Lora", sans-serif;
+  background-color: var(--primary-color);
   color: var(--text-color);
   font-weight: bold;
   font-size: 1rem;
   border: none;
-  padding: 14px;
+  padding: 12px;
   border-radius: 100%;
+  
   cursor: pointer;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.whatsapp-btn img {
+  width: 96%;
 }
 
 .whatsapp-btn:hover {
@@ -200,9 +207,14 @@ header {
 
 @media (min-width: 1024px) {
   header  {
-    background-color: #656f4a;
+
     height: 250px;
     width: 250px;
+  }
+  header img {
+    height: 250px;
+    width: 250px;
+    
   }
 
   body {

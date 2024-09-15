@@ -1,4 +1,8 @@
 // Função principal que carrega o JSON e inicia a renderização
+window.addEventListener("load", function () {
+  const preloader = document.querySelector(".preloader");
+  preloader.style.display = "none"; // Esconde o preloader quando todas as imagens forem carregadas
+});
 document.addEventListener("DOMContentLoaded", function () {
   fetch("data/gifts.json")
     .then((response) => response.json())
