@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         cicle.classList.add("whatsapp-btn");
 
         const giftIcon = document.createElement("img");
-        giftIcon.src = "/images/gift-icon.svg";
+        giftIcon.src = "images/gift-icon.svg";
         giftIcon.alt = "icone de presente";
 
         whatsappLink.appendChild(cicle);
