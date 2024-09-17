@@ -249,7 +249,17 @@ header {
   }
 
   .pix-container h4 {
-    font-size: 2rem;
+    font-size: 2rem; 
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 1rem;
+  }
+  .pix-container h4:hover {
+    font-size: 2rem; 
+    color: var(--primary-color);
+    text-decoration: none;
+
+    padding: 1rem;
   }
 
   .gift-item {
